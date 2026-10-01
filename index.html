@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LALLA AUTO SERVICE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Custom Cursor (Desktop) -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Page Load Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <h1 class="loader-title">LALLA<br>AUTO SERVICE</h1>
+            <div class="loader-progress-bar">
+                <div class="loader-progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="logo">LALLA<br>AUTO SERVICE</span>
+        </div>
+        <div class="nav-center desktop-only">
+            <a href="#services" class="nav-link">SERVICE</a>
+            <a href="#parts" class="nav-link">SPARE PARTS</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <div class="nav-right desktop-only">
+            <a href="#booking" class="btn btn-outline" data-cursor="BOOK">BOOK SERVICE</a>
+        </div>
+        <div class="hamburger mobile-only">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#services" class="mobile-link">SERVICE</a>
+            <a href="#parts" class="mobile-link">SPARE PARTS</a>
+            <a href="#about" class="mobile-link">ABOUT</a>
+            <a href="#contact" class="mobile-link">CONTACT</a>
+            <a href="#booking" class="btn btn-primary mt-4">BOOK SERVICE</a>
+        </div>
+    </div>
+
+    <!-- Main Content Wrapped for Lenis -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-visual full-screen-visual">
+                <canvas id="hero-canvas"></canvas>
+            </div>
+        </section>
+
+        <!-- What We Do / Services -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title text-center">MORE THAN<br>A REPAIR.</h2>
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-number">01</div>
+                        <div class="service-content">
+                            <h3 class="service-name">BIKE SERVICE</h3>
+                            <p class="service-text">Routine maintenance that keeps your motorcycle performing at its best.</p>
+                        </div>
+                        <div class="service-image-wrapper">
+                            <img src="assets/service.jpg" alt="Bike Service">
+                        </div>
+                        <div class="service-line"></div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-number">02</div>
+                        <div class="service-content">
+                            <h3 class="service-name">ENGINE & REPAIR</h3>
+                            <p class="service-text">From diagnostics to detailed mechanical work.</p>
+                        </div>
+                        <div class="service-image-wrapper">
+                            <img src="assets/engine.jpg" alt="Engine Repair">
+                        </div>
+                        <div class="service-line"></div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-number">03</div>
+                        <div class="service-content">
+                            <h3 class="service-name">GENUINE SPARE PARTS</h3>
+                            <p class="service-text">Quality parts for Hero, Bajaj, TVS and Honda motorcycles.</p>
+                        </div>
+                        <div class="service-image-wrapper">
+                            <img src="assets/spare-parts.jpg" alt="Spare Parts">
+                        </div>
+                        <div class="service-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cinematic Parallax Section -->
+        <section class="cinematic-service">
+            <div class="parallax-container">
+                <img src="assets/mechanic.jpg" alt="Mechanic" class="parallax-image">
+                <div class="parallax-overlay"></div>
+                <h2 class="parallax-text">WE KNOW<br>WHAT'S<br>UNDER THE TANK.</h2>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process" id="process">
+            <div class="container">
+                <h2 class="section-title">THE PROCESS</h2>
+                <div class="process-wrapper">
+                    <div class="process-track">
+                        <div class="process-step">
+                            <div class="step-num">01</div>
+                            <div class="step-name">INSPECT</div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-num">02</div>
+                            <div class="step-name">DIAGNOSE</div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-num">03</div>
+                            <div class="step-name">REPAIR</div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-num">04</div>
+                            <div class="step-name">TEST</div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-num">05</div>
+                            <div class="step-name">READY TO RIDE</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Section -->
+        <section class="brands">
+            <div class="container text-center">
+                <h2 class="section-title small-margin">BUILT AROUND<br>THE MACHINES YOU RIDE.</h2>
+                <div class="brand-list">
+                    <div class="brand-item" data-cursor="VIEW">HERO</div>
+                    <div class="brand-item" data-cursor="VIEW">BAJAJ</div>
+                    <div class="brand-item" data-cursor="VIEW">TVS</div>
+                    <div class="brand-item" data-cursor="VIEW">HONDA</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Spare Parts Section -->
+        <section class="parts" id="parts">
+            <div class="container">
+                <h2 class="section-title">SPARE PARTS</h2>
+                <div class="parts-accordion">
+                    <div class="part-row" data-cursor="VIEW">
+                        <div class="part-info">
+                            <h3>ENGINE</h3>
+                            <div class="part-indicator"></div>
+                        </div>
+                        <div class="part-visual"></div>
+                    </div>
+                    <div class="part-row" data-cursor="VIEW">
+                        <div class="part-info">
+                            <h3>BRAKES</h3>
+                            <div class="part-indicator"></div>
+                        </div>
+                        <div class="part-visual"></div>
+                    </div>
+                    <div class="part-row" data-cursor="VIEW">
+                        <div class="part-info">
+                            <h3>CHAIN & SPROCKET</h3>
+                            <div class="part-indicator"></div>
+                        </div>
+                        <div class="part-visual"></div>
+                    </div>
+                    <div class="part-row" data-cursor="VIEW">
+                        <div class="part-info">
+                            <h3>SUSPENSION</h3>
+                            <div class="part-indicator"></div>
+                        </div>
+                        <div class="part-visual"></div>
+                    </div>
+                    <div class="part-row" data-cursor="VIEW">
+                        <div class="part-info">
+                            <h3>ELECTRICAL</h3>
+                            <div class="part-indicator"></div>
+                        </div>
+                        <div class="part-visual"></div>
+                    </div>
+                    <div class="part-row" data-cursor="VIEW">
+                        <div class="part-info">
+                            <h3>BODY PARTS</h3>
+                            <div class="part-indicator"></div>
+                        </div>
+                        <div class="part-visual"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workshop Experience -->
+        <section class="workshop-experience" id="about">
+            <div class="split-screen">
+                <div class="split-left">
+                    <div class="split-image-wrapper">
+                        <img src="assets/workshop-inside.jpg" alt="Workshop Inside">
+                    </div>
+                </div>
+                <div class="split-right">
+                    <div class="split-content">
+                        <h2 class="split-title">TOOLS.<br>TECHNIQUE.<br>TRUST.</h2>
+                        <p class="split-desc">Every motorcycle gets attention to detail, proper diagnostics and hands-on service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="30">0</div>
+                        <div class="stat-plus">+</div>
+                        <div class="stat-label">YEARS OF EXPERIENCE</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="10">0</div>
+                        <div class="stat-plus">LAKH+</div>
+                        <div class="stat-label">BIKES REPAIRED</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="4">0</div>
+                        <div class="stat-plus"></div>
+                        <div class="stat-label">MAJOR BRANDS</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="100">0</div>
+                        <div class="stat-plus">%</div>
+                        <div class="stat-label">ATTENTION TO DETAIL</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Service & Location -->
+        <section class="booking-location" id="booking">
+            <div class="container">
+                <div class="bl-grid">
+                    <!-- Booking Form -->
+                    <div class="booking-box">
+                        <h2 class="box-title">READY<br>TO RIDE<br>BETTER?</h2>
+                        <form id="bookingForm" class="booking-form">
+                            <div class="form-group">
+                                <label for="name">NAME</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">PHONE</label>
+                                <input type="tel" id="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bike">BIKE MODEL</label>
+                                <input type="text" id="bike" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">SERVICE REQUIRED</label>
+                                <select id="service" required>
+                                    <option value="" disabled selected>Select a service</option>
+                                    <option value="routine">Routine Service</option>
+                                    <option value="engine">Engine Repair</option>
+                                    <option value="parts">Spare Parts</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary full-width" data-cursor="BOOK">BOOK SERVICE</button>
+                            <div class="form-success">
+                                <h3>REQUEST SENT</h3>
+                                <p>We will contact you shortly.</p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="location-box" id="contact">
+                        <h2 class="box-title">FIND US</h2>
+                        <div class="address">
+                            <p>Water Works Road,<br>Near Budaun Roadways,<br>Budaun, Uttar Pradesh</p>
+                        </div>
+                        <div class="map-placeholder">
+                            <span>LALLA AUTO SERVICE</span>
+                        </div>
+                        <div class="phone-box">
+                            <div class="phone-number">9045009676</div>
+                            <div class="location-actions">
+                                <a href="tel:9045009676" class="btn btn-outline" data-cursor="OPEN">CALL NOW</a>
+                                <a href="#" class="btn btn-outline" data-cursor="OPEN">GET DIRECTIONS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Cinematic Section -->
+        <section class="final-cinematic">
+            <div class="final-image-wrapper">
+                <img src="assets/riding.jpg" alt="Keep Riding">
+                <div class="red-light-sweep"></div>
+            </div>
+            <div class="final-content">
+                <h2 class="final-title">KEEP RIDING.</h2>
+                <p class="final-text">WE'LL TAKE CARE OF THE REST.</p>
+                <a href="#booking" class="btn btn-primary final-btn" data-cursor="BOOK">BOOK YOUR SERVICE</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <h2>LALLA<br>AUTO SERVICE</h2>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#services">SERVICE</a>
+                        <a href="#parts">SPARE PARTS</a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#contact">CONTACT</a>
+                    </div>
+                    <div class="footer-contact">
+                        <p>Phone:<br>9045009676</p>
+                        <p>Location:<br>Budaun, Uttar Pradesh</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Lalla Auto Service</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- GSAP & Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Lenis for smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
