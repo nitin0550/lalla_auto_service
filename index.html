@@ -1,367 +1,673 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LALLA AUTO SERVICE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  
+  <title>Lalla Auto Service — Budaun | Bike Repair & Genuine Spare Parts</title>
+  <meta name="description" content="Budaun's trusted motorcycle repair workshop and genuine spare parts shop for Hero, Bajaj, TVS, and Honda bikes. Located at Water Works Road, near Budaun Roadways, opp. Hanuman Mandir. WhatsApp: 9045009676." />
+  <meta name="keywords" content="bike service in Budaun, bike repair shop in Budaun, bike spare parts Budaun, Hero bike service Budaun, Bajaj bike service Budaun, TVS bike service Budaun, Honda bike service Budaun, motorcycle repair Budaun, bike mechanic near Budaun Roadways" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- OpenGraph Meta -->
+  <meta property="og:title" content="Lalla Auto Service — Budaun" />
+  <meta property="og:description" content="100% Genuine Motorcycle Spare Parts & Certified 2-Wheeler Repair Workshop in Budaun. Hero, Bajaj, TVS, Honda." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/scene_workshop.webp" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-    <!-- Custom Cursor (Desktop) -->
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
+  <!-- Top Anchor -->
+  <div id="top"></div>
 
-    <!-- Page Load Animation -->
-    <div class="loader">
-        <div class="loader-content">
-            <h1 class="loader-title">LALLA<br>AUTO SERVICE</h1>
-            <div class="loader-progress-bar">
-                <div class="loader-progress-fill"></div>
-            </div>
+  <!-- Unified Site Header & Visual Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Main Navigation">
+        <!-- Brand Visual Emblem -->
+        <a href="#top" class="site-logo site-logo--visual" data-tooltip="Lalla Auto Service · Budaun" aria-label="Lalla Auto Service Budaun">
+          <div class="site-logo__emblem">
+            <span class="emblem-spark">⚡</span>
+            <span class="emblem-tag">LAS</span>
+            <span class="status-dot-pulse" title="Workshop Open Now"></span>
+          </div>
+        </a>
+
+        <!-- Pure Visual Dock Navigation Links -->
+        <ul class="nav-links nav-links--visual" id="desktop-nav-links" role="menubar">
+          <li role="none">
+            <a href="#top" class="nav-link nav-link--icon" data-section="top" data-tooltip="3D Workshop Tour" aria-label="3D Workshop Tour" role="menuitem">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#services" class="nav-link nav-link--icon" data-section="services" data-tooltip="Workshop Services" aria-label="Workshop Services" role="menuitem">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#standards" class="nav-link nav-link--icon" data-section="standards" data-tooltip="Quality Standards" aria-label="Quality Standards & Assurance" role="menuitem">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#pickup" class="nav-link nav-link--icon" data-section="pickup" data-tooltip="Doorstep Pickup & Drop" aria-label="Doorstep Pickup & Drop" role="menuitem">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="3" width="15" height="13"/>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 8"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/>
+                <circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#contact" class="nav-link nav-link--icon" data-section="contact" data-tooltip="Workshop Location & Hours" aria-label="Workshop Location & Hours" role="menuitem">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Pure Visual Action Buttons -->
+        <div class="header-actions">
+          <a href="tel:9045009676" class="header-icon-btn header-call-btn" data-tooltip="Call Workshop" aria-label="Call Workshop 9045009676">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </a>
+
+          <a href="#booking-modal" class="header-icon-btn header-wa-btn" data-tooltip="Chat on WhatsApp" aria-label="Book on WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.79 14.12c-.24.68-1.4 1.28-1.92 1.33-.5.05-1.12.07-3.25-.8-2.73-1.12-4.48-3.9-4.62-4.08-.13-.19-1.1-1.47-1.1-2.8 0-1.33.7-1.98.95-2.25.24-.27.53-.34.71-.34.18 0 .36 0 .52.01.17.01.4.07.61.58.24.57.81 1.98.88 2.13.07.15.11.32.02.5-.09.18-.14.29-.27.46-.14.16-.29.35-.41.48-.14.13-.28.28-.12.56.16.27.7 1.15 1.5 1.86 1.03.92 1.9 1.2 2.17 1.34.27.13.43.11.59-.07.16-.19.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.74 1.85.88.27.14.45.21.52.32.07.12.07.7-.17 1.38z"/>
+            </svg>
+          </a>
+          
+          <button type="button" class="mobile-toggle" id="mobile-menu-toggle" data-tooltip="Menu" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
         </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <div class="mobile-drawer__header">
+      <div class="site-logo">
+        <div class="site-logo__icon">⚡</div>
+        <div class="site-logo__text">
+          <div class="site-logo__title">Lalla Auto Service</div>
+          <div class="site-logo__status">
+            <span class="status-dot"></span>
+            <span>Budaun Workshop</span>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="mobile-drawer__close" id="mobile-menu-close" aria-label="Close Navigation Menu">&times;</button>
     </div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-left">
-            <span class="logo">LALLA<br>AUTO SERVICE</span>
-        </div>
-        <div class="nav-center desktop-only">
-            <a href="#services" class="nav-link">SERVICE</a>
-            <a href="#parts" class="nav-link">SPARE PARTS</a>
-            <a href="#about" class="nav-link">ABOUT</a>
-            <a href="#contact" class="nav-link">CONTACT</a>
-        </div>
-        <div class="nav-right desktop-only">
-            <a href="#booking" class="btn btn-outline" data-cursor="BOOK">BOOK SERVICE</a>
-        </div>
-        <div class="hamburger mobile-only">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+    <div class="mobile-drawer__body">
+      <ul class="mobile-nav-links">
+        <li>
+          <a href="#services" class="mobile-nav-link" data-section="services">
+            <span class="text">Workshop Services</span>
+          </a>
+        </li>
+        <li>
+          <a href="#standards" class="mobile-nav-link" data-section="standards">
+            <span class="text">Quality Assurance</span>
+          </a>
+        </li>
+        <li>
+          <a href="#pickup" class="mobile-nav-link" data-section="pickup">
+            <span class="text">Doorstep Pickup &amp; Drop</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="mobile-nav-link" data-section="contact">
+            <span class="text">Workshop Location</span>
+          </a>
+        </li>
+      </ul>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu">
-        <div class="mobile-menu-content">
-            <a href="#services" class="mobile-link">SERVICE</a>
-            <a href="#parts" class="mobile-link">SPARE PARTS</a>
-            <a href="#about" class="mobile-link">ABOUT</a>
-            <a href="#contact" class="mobile-link">CONTACT</a>
-            <a href="#booking" class="btn btn-primary mt-4">BOOK SERVICE</a>
-        </div>
+      <!-- Quick Action CTAs in Mobile Menu -->
+      <div class="mobile-drawer__cta">
+        <a href="#booking-modal" class="btn btn--whatsapp btn--full mobile-modal-btn">
+          💬 Book Service on WhatsApp
+        </a>
+        <a href="tel:9045009676" class="btn btn--ghost btn--full" style="margin-top:10px;">
+          📞 Call Workshop: 9045009676
+        </a>
+      </div>
+
+      <div class="mobile-drawer__info">
+        <p><strong>Lalla Auto Service</strong></p>
+        <p>Water Works Road, near Budaun Roadways, opp. Hanuman Mandir, Budaun, UP</p>
+        <p class="hours">⏰ Open All 7 Days: 9:00 AM – 8:00 PM</p>
+      </div>
     </div>
+  </aside>
 
-    <!-- Main Content Wrapped for Lenis -->
-    <main>
-        
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero-visual full-screen-visual">
-                <canvas id="hero-canvas"></canvas>
+  <!-- lets-scroll Interactive 30 FPS Canvas World (Scroll-to-Animate Flight) -->
+  <main>
+    <section id="world-section" aria-label="Interactive 3D Workshop Tour">
+      <div id="world"></div>
+    </section>
+
+    <!-- SECTION: Workshop Services -->
+    <section id="services" class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">EXPERT 2-WHEELER WORKSHOP</div>
+          <h2 class="section-title">Motorcycle Repairs & Servicing in Budaun</h2>
+          <div class="section-brands-visual">
+            <span class="brand-badge-visual">🏍️ Hero</span>
+            <span class="brand-badge-visual">⚡ Bajaj</span>
+            <span class="brand-badge-visual">🏁 TVS</span>
+            <span class="brand-badge-visual">🔴 Honda</span>
+            <span class="brand-badge-visual brand-badge-visual--gold">🛡️ 100% Genuine Spares</span>
+          </div>
+        </div>
+
+        <div id="services-grid" class="services-grid">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Workshop Assurance & Standards (Visual Highlights) -->
+    <section id="standards" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">QUALITY ASSURANCE &amp; TRUST</div>
+          <h2 class="section-title">The Lalla Auto Workshop Advantage</h2>
+          <p class="section-desc">
+            Complete transparency, factory-sealed genuine spares, and precision diagnostic care for your two-wheeler.
+          </p>
+        </div>
+
+        <div class="trust-timeline">
+          <div class="trust-timeline__track" aria-hidden="true"></div>
+
+          <!-- Step 01 -->
+          <div class="timeline-step timeline-step--left">
+            <div class="timeline-step__marker">
+              <span class="timeline-step__num">01</span>
             </div>
-        </section>
 
-        <!-- What We Do / Services -->
-        <section class="services" id="services">
-            <div class="container">
-                <h2 class="section-title text-center">MORE THAN<br>A REPAIR.</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <div class="service-number">01</div>
-                        <div class="service-content">
-                            <h3 class="service-name">BIKE SERVICE</h3>
-                            <p class="service-text">Routine maintenance that keeps your motorcycle performing at its best.</p>
-                        </div>
-                        <div class="service-image-wrapper">
-                            <img src="assets/service.jpg" alt="Bike Service">
-                        </div>
-                        <div class="service-line"></div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-number">02</div>
-                        <div class="service-content">
-                            <h3 class="service-name">ENGINE & REPAIR</h3>
-                            <p class="service-text">From diagnostics to detailed mechanical work.</p>
-                        </div>
-                        <div class="service-image-wrapper">
-                            <img src="assets/engine.jpg" alt="Engine Repair">
-                        </div>
-                        <div class="service-line"></div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-number">03</div>
-                        <div class="service-content">
-                            <h3 class="service-name">GENUINE SPARE PARTS</h3>
-                            <p class="service-text">Quality parts for Hero, Bajaj, TVS and Honda motorcycles.</p>
-                        </div>
-                        <div class="service-image-wrapper">
-                            <img src="assets/spare-parts.jpg" alt="Spare Parts">
-                        </div>
-                        <div class="service-line"></div>
-                    </div>
+            <div class="timeline-step__content">
+              <div class="timeline-step__media">
+                <img src="assets/images/feature_genuine_parts.webp" alt="100% Genuine OEM Motorcycle Spares" loading="lazy" class="timeline-step__img" />
+                <span class="timeline-step__badge timeline-step__badge--green">🛡️ Phase 01: Spares Verification</span>
+              </div>
+              <div class="timeline-step__info">
+                <span class="timeline-step__eyebrow">STEP 01 · AUTHENTIC FACTORY SPARES</span>
+                <h3 class="timeline-step__title">100% Genuine OEM Spares Unboxing</h3>
+                <span class="timeline-step__hindi">असली स्पेयर पार्ट्स की पक्की गारंटी</span>
+                <p class="timeline-step__desc">
+                  Every replacement part comes in authentic factory-sealed packaging with tamper-proof holographic seals for Hero, Bajaj, TVS, and Honda. We maintain a strict zero-duplicate policy.
+                </p>
+                <div class="timeline-step__chips">
+                  <span class="timeline-chip">📦 Sealed Factory Box</span>
+                  <span class="timeline-chip">🛡️ Hologram Verified</span>
+                  <span class="timeline-chip">🏍️ Hero · Bajaj · TVS · Honda</span>
+                  <span class="timeline-chip">🚫 Zero Counterfeits</span>
                 </div>
+                <a href="#booking-modal" class="timeline-step__cta">
+                  💬 Inquire Genuine Parts <span>&rarr;</span>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Cinematic Parallax Section -->
-        <section class="cinematic-service">
-            <div class="parallax-container">
-                <img src="assets/mechanic.jpg" alt="Mechanic" class="parallax-image">
-                <div class="parallax-overlay"></div>
-                <h2 class="parallax-text">WE KNOW<br>WHAT'S<br>UNDER THE TANK.</h2>
+          <!-- Step 02 -->
+          <div class="timeline-step timeline-step--right">
+            <div class="timeline-step__marker">
+              <span class="timeline-step__num">02</span>
             </div>
-        </section>
 
-        <!-- Process Section -->
-        <section class="process" id="process">
-            <div class="container">
-                <h2 class="section-title">THE PROCESS</h2>
-                <div class="process-wrapper">
-                    <div class="process-track">
-                        <div class="process-step">
-                            <div class="step-num">01</div>
-                            <div class="step-name">INSPECT</div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-num">02</div>
-                            <div class="step-name">DIAGNOSE</div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-num">03</div>
-                            <div class="step-name">REPAIR</div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-num">04</div>
-                            <div class="step-name">TEST</div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-num">05</div>
-                            <div class="step-name">READY TO RIDE</div>
-                        </div>
-                    </div>
+            <div class="timeline-step__content">
+              <div class="timeline-step__media">
+                <img src="assets/images/feature_live_inspection.webp" alt="Live WhatsApp Photo Transparency" loading="lazy" class="timeline-step__img" />
+                <span class="timeline-step__badge timeline-step__badge--blue">📲 Phase 02: WhatsApp Live</span>
+              </div>
+              <div class="timeline-step__info">
+                <span class="timeline-step__eyebrow">STEP 02 · COMPLETE TRANSPARENCY</span>
+                <h3 class="timeline-step__title">WhatsApp Live Photo Inspection</h3>
+                <span class="timeline-step__hindi">काम शुरू होने से पहले फोटो व वीडियो अपडेट</span>
+                <p class="timeline-step__desc">
+                  Before a single bolt is turned or a part is replaced, our technician conducts a 28-point check and shares high-resolution photos and job updates directly on your WhatsApp for pre-approval.
+                </p>
+                <div class="timeline-step__chips">
+                  <span class="timeline-chip">📸 WhatsApp Photo Updates</span>
+                  <span class="timeline-chip">🔍 28-Point Health Check</span>
+                  <span class="timeline-chip">💬 Customer Pre-Approval</span>
+                  <span class="timeline-chip">📄 Digital Job Card</span>
                 </div>
+                <a href="#booking-modal" class="timeline-step__cta">
+                  💬 Book Inspection <span>&rarr;</span>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Brands Section -->
-        <section class="brands">
-            <div class="container text-center">
-                <h2 class="section-title small-margin">BUILT AROUND<br>THE MACHINES YOU RIDE.</h2>
-                <div class="brand-list">
-                    <div class="brand-item" data-cursor="VIEW">HERO</div>
-                    <div class="brand-item" data-cursor="VIEW">BAJAJ</div>
-                    <div class="brand-item" data-cursor="VIEW">TVS</div>
-                    <div class="brand-item" data-cursor="VIEW">HONDA</div>
+          <!-- Step 03 -->
+          <div class="timeline-step timeline-step--left">
+            <div class="timeline-step__marker">
+              <span class="timeline-step__num">03</span>
+            </div>
+
+            <div class="timeline-step__content">
+              <div class="timeline-step__media">
+                <img src="assets/images/feature_precision_tools.webp" alt="Advanced Precision Workshop Tools" loading="lazy" class="timeline-step__img" />
+                <span class="timeline-step__badge timeline-step__badge--amber">⚙️ Phase 03: Precision Care</span>
+              </div>
+              <div class="timeline-step__info">
+                <span class="timeline-step__eyebrow">STEP 03 · ADVANCED DIAGNOSTICS</span>
+                <h3 class="timeline-step__title">Hydraulic Bays &amp; Precision Calibration</h3>
+                <span class="timeline-step__hindi">आधुनिक हाइड्रोलिक लिफ्ट &amp; टूल्स</span>
+                <p class="timeline-step__desc">
+                  Your bike is elevated on dedicated hydraulic scissor lifts and serviced using calibrated digital torque wrenches, computerized battery load testers, and pneumatic tools for factory precision.
+                </p>
+                <div class="timeline-step__chips">
+                  <span class="timeline-chip">⚙️ Hydraulic Bike Lifts</span>
+                  <span class="timeline-chip">🔋 Digital Battery Load Test</span>
+                  <span class="timeline-chip">🔧 Calibrated Torque Wrenches</span>
+                  <span class="timeline-chip">⏱️ Same-Day Turnaround</span>
                 </div>
+                <a href="#booking-modal" class="timeline-step__cta">
+                  💬 Schedule Service <span>&rarr;</span>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Spare Parts Section -->
-        <section class="parts" id="parts">
-            <div class="container">
-                <h2 class="section-title">SPARE PARTS</h2>
-                <div class="parts-accordion">
-                    <div class="part-row" data-cursor="VIEW">
-                        <div class="part-info">
-                            <h3>ENGINE</h3>
-                            <div class="part-indicator"></div>
-                        </div>
-                        <div class="part-visual"></div>
-                    </div>
-                    <div class="part-row" data-cursor="VIEW">
-                        <div class="part-info">
-                            <h3>BRAKES</h3>
-                            <div class="part-indicator"></div>
-                        </div>
-                        <div class="part-visual"></div>
-                    </div>
-                    <div class="part-row" data-cursor="VIEW">
-                        <div class="part-info">
-                            <h3>CHAIN & SPROCKET</h3>
-                            <div class="part-indicator"></div>
-                        </div>
-                        <div class="part-visual"></div>
-                    </div>
-                    <div class="part-row" data-cursor="VIEW">
-                        <div class="part-info">
-                            <h3>SUSPENSION</h3>
-                            <div class="part-indicator"></div>
-                        </div>
-                        <div class="part-visual"></div>
-                    </div>
-                    <div class="part-row" data-cursor="VIEW">
-                        <div class="part-info">
-                            <h3>ELECTRICAL</h3>
-                            <div class="part-indicator"></div>
-                        </div>
-                        <div class="part-visual"></div>
-                    </div>
-                    <div class="part-row" data-cursor="VIEW">
-                        <div class="part-info">
-                            <h3>BODY PARTS</h3>
-                            <div class="part-indicator"></div>
-                        </div>
-                        <div class="part-visual"></div>
-                    </div>
+          <!-- Step 04 -->
+          <div class="timeline-step timeline-step--right">
+            <div class="timeline-step__marker">
+              <span class="timeline-step__num">04</span>
+            </div>
+
+            <div class="timeline-step__content">
+              <div class="timeline-step__media">
+                <img src="assets/images/feature_warranty_check.webp" alt="30-Day Service Warranty & Road Test" loading="lazy" class="timeline-step__img" />
+                <span class="timeline-step__badge timeline-step__badge--red">⭐ Phase 04: Warranty &amp; Delivery</span>
+              </div>
+              <div class="timeline-step__info">
+                <span class="timeline-step__eyebrow">STEP 04 · QUALITY HANDOVER</span>
+                <h3 class="timeline-step__title">Road Test &amp; 30-Day Workshop Warranty</h3>
+                <span class="timeline-step__hindi">संतुष्टि की 30-दिन वारंटी और फ्री ट्यूनिंग</span>
+                <p class="timeline-step__desc">
+                  Before handover, our head technician conducts a multi-point road test. Every major engine, clutch, and electrical service comes with our 30-day workmanship warranty and complimentary follow-up check.
+                </p>
+                <div class="timeline-step__chips">
+                  <span class="timeline-chip">🛡️ 30-Day Repair Warranty</span>
+                  <span class="timeline-chip">🏁 Pre-Delivery Road Test</span>
+                  <span class="timeline-chip">🚿 High-Pressure Foam Wash</span>
+                  <span class="timeline-chip">🤝 Free Follow-up Tuning</span>
                 </div>
+                <a href="#booking-modal" class="timeline-step__cta">
+                  💬 Chat on WhatsApp <span>&rarr;</span>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Workshop Experience -->
-        <section class="workshop-experience" id="about">
-            <div class="split-screen">
-                <div class="split-left">
-                    <div class="split-image-wrapper">
-                        <img src="assets/workshop-inside.jpg" alt="Workshop Inside">
-                    </div>
-                </div>
-                <div class="split-right">
-                    <div class="split-content">
-                        <h2 class="split-title">TOOLS.<br>TECHNIQUE.<br>TRUST.</h2>
-                        <p class="split-desc">Every motorcycle gets attention to detail, proper diagnostics and hands-on service.</p>
-                    </div>
-                </div>
+    <!-- SECTION: Doorstep Pickup & Drop -->
+    <section id="pickup" class="section section--alt">
+      <div class="container">
+        <div class="pickup-banner">
+          <div class="pickup-banner__info">
+            <div class="section-tag" style="background:rgba(59,130,246,0.15); color:var(--accent-blue); border-color:rgba(59,130,246,0.3);">
+              DOORSTEP BIKE PICKUP & DROP
             </div>
-        </section>
+            <h2>We Pick Up Your Bike from Anywhere in Budaun</h2>
+            <p>
+              Stuck at home or office? Don't have time to visit our workshop? Our team will safely collect your motorcycle from your location, bring it to our workshop, complete the service, and drop it back at your doorstep.
+            </p>
 
-        <!-- Stats Section -->
-        <section class="stats">
-            <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-num" data-target="30">0</div>
-                        <div class="stat-plus">+</div>
-                        <div class="stat-label">YEARS OF EXPERIENCE</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-num" data-target="10">0</div>
-                        <div class="stat-plus">LAKH+</div>
-                        <div class="stat-label">BIKES REPAIRED</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-num" data-target="4">0</div>
-                        <div class="stat-plus"></div>
-                        <div class="stat-label">MAJOR BRANDS</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-num" data-target="100">0</div>
-                        <div class="stat-plus">%</div>
-                        <div class="stat-label">ATTENTION TO DETAIL</div>
-                    </div>
-                </div>
+            <div class="pickup-banner__steps">
+              <div class="pickup-step">
+                <div class="pickup-step__num">STEP 01</div>
+                <div class="pickup-step__title">Request on WhatsApp</div>
+                <p class="pickup-step__desc">Share your location in Budaun and preferred pickup time.</p>
+              </div>
+
+              <div class="pickup-step">
+                <div class="pickup-step__num">STEP 02</div>
+                <div class="pickup-step__title">Trained Driver Arrival</div>
+                <p class="pickup-step__desc">Digital inspection & safe loading onto our carrier vehicle.</p>
+              </div>
+
+              <div class="pickup-step">
+                <div class="pickup-step__num">STEP 03</div>
+                <div class="pickup-step__title">Workshop Service</div>
+                <p class="pickup-step__desc">Expert repairs with live photo & estimate updates on WhatsApp.</p>
+              </div>
+
+              <div class="pickup-step">
+                <div class="pickup-step__num">STEP 04</div>
+                <div class="pickup-step__title">Doorstep Drop</div>
+                <p class="pickup-step__desc">Your bike is washed, polished, and delivered back ready to ride.</p>
+              </div>
             </div>
-        </section>
 
-        <!-- Book Service & Location -->
-        <section class="booking-location" id="booking">
-            <div class="container">
-                <div class="bl-grid">
-                    <!-- Booking Form -->
-                    <div class="booking-box">
-                        <h2 class="box-title">READY<br>TO RIDE<br>BETTER?</h2>
-                        <form id="bookingForm" class="booking-form">
-                            <div class="form-group">
-                                <label for="name">NAME</label>
-                                <input type="text" id="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">PHONE</label>
-                                <input type="tel" id="phone" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="bike">BIKE MODEL</label>
-                                <input type="text" id="bike" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="service">SERVICE REQUIRED</label>
-                                <select id="service" required>
-                                    <option value="" disabled selected>Select a service</option>
-                                    <option value="routine">Routine Service</option>
-                                    <option value="engine">Engine Repair</option>
-                                    <option value="parts">Spare Parts</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <button type="submit" class="btn btn-primary full-width" data-cursor="BOOK">BOOK SERVICE</button>
-                            <div class="form-success">
-                                <h3>REQUEST SENT</h3>
-                                <p>We will contact you shortly.</p>
-                            </div>
-                        </form>
-                    </div>
+            <button type="button" class="btn btn--primary" id="open-pickup-modal-btn">
+              🚚 Schedule Doorstep Pickup Now
+            </button>
+          </div>
 
-                    <!-- Location -->
-                    <div class="location-box" id="contact">
-                        <h2 class="box-title">FIND US</h2>
-                        <div class="address">
-                            <p>Water Works Road,<br>Near Budaun Roadways,<br>Budaun, Uttar Pradesh</p>
-                        </div>
-                        <div class="map-placeholder">
-                            <span>LALLA AUTO SERVICE</span>
-                        </div>
-                        <div class="phone-box">
-                            <div class="phone-number">9045009676</div>
-                            <div class="location-actions">
-                                <a href="tel:9045009676" class="btn btn-outline" data-cursor="OPEN">CALL NOW</a>
-                                <a href="#" class="btn btn-outline" data-cursor="OPEN">GET DIRECTIONS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="pickup-banner__cta-box">
+            <div class="pickup-cta-media">
+              <img src="assets/images/service_pickup.webp" alt="Doorstep Motorcycle Transit Budaun" loading="lazy" class="pickup-cta-img" />
+              <div class="pickup-cta-badge">🚚 Budaun-Wide Transit</div>
             </div>
-        </section>
+            <h3>Hassle-Free Doorstep Service</h3>
+            <p>Available across all residential colonies and commercial hubs in Budaun. Safe transit on hydraulic ramp carrier.</p>
+            <a href="https://wa.me/919045009676?text=Namaste%20Lalla%20Auto%20Service,%20I%20want%20to%20book%20a%20Doorstep%20Bike%20Pickup%20in%20Budaun." class="btn btn--whatsapp btn--full" target="_blank" rel="noopener">
+              💬 WhatsApp Pickup Hotline
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Final Cinematic Section -->
-        <section class="final-cinematic">
-            <div class="final-image-wrapper">
-                <img src="assets/riding.jpg" alt="Keep Riding">
-                <div class="red-light-sweep"></div>
+
+
+    <!-- SECTION: Location, Working Hours & Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">VISIT OUR WORKSHOP</div>
+          <h2 class="section-title">Shop Location & Contact Details</h2>
+          <p class="section-desc">
+            Conveniently located in the heart of Budaun, right near Budaun Roadways bus stand and opposite Hanuman Mandir.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-item">
+              <div class="contact-item__icon">📍</div>
+              <div class="contact-item__content">
+                <h4>Workshop & Shop Address</h4>
+                <p>
+                  <strong>Lalla Auto Service</strong><br />
+                  Water Works Road, near Budaun Roadways,<br />
+                  In the lane opposite Hanuman Mandir,<br />
+                  Budaun, Uttar Pradesh — 243601
+                </p>
+              </div>
             </div>
-            <div class="final-content">
-                <h2 class="final-title">KEEP RIDING.</h2>
-                <p class="final-text">WE'LL TAKE CARE OF THE REST.</p>
-                <a href="#booking" class="btn btn-primary final-btn" data-cursor="BOOK">BOOK YOUR SERVICE</a>
+
+            <div class="contact-item">
+              <div class="contact-item__icon">📱</div>
+              <div class="contact-item__content">
+                <h4>Phone & WhatsApp</h4>
+                <p>
+                  <a href="tel:9045009676" style="color:var(--ink-primary); font-weight:700;">+91 9045009676</a><br />
+                  Direct WhatsApp messaging for spares inquiry, quotes & bookings.
+                </p>
+              </div>
             </div>
-        </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-brand">
-                        <h2>LALLA<br>AUTO SERVICE</h2>
-                    </div>
-                    <div class="footer-links">
-                        <a href="#services">SERVICE</a>
-                        <a href="#parts">SPARE PARTS</a>
-                        <a href="#about">ABOUT</a>
-                        <a href="#contact">CONTACT</a>
-                    </div>
-                    <div class="footer-contact">
-                        <p>Phone:<br>9045009676</p>
-                        <p>Location:<br>Budaun, Uttar Pradesh</p>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <p>&copy; 2026 Lalla Auto Service</p>
-                </div>
+            <div class="contact-item">
+              <div class="contact-item__icon">⏰</div>
+              <div class="contact-item__content">
+                <h4>Working Hours</h4>
+                <p>
+                  <strong>Monday – Sunday: 9:00 AM – 8:00 PM</strong><br />
+                  Open All 7 Days a week for customer convenience.
+                </p>
+              </div>
             </div>
-        </footer>
 
-    </main>
+            <div class="contact-item">
+              <div class="contact-item__icon">🏍️</div>
+              <div class="contact-item__content">
+                <h4>Motorcycles Serviced</h4>
+                <p>
+                  Specialized service for <strong>Hero, Bajaj, TVS, and Honda</strong> bikes & scooters.
+                </p>
+              </div>
+            </div>
+          </div>
 
-    <!-- GSAP & Plugins -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <!-- Lenis for smooth scrolling -->
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <!-- Custom Script -->
-    <script src="script.js"></script>
+          <div class="contact-map-card">
+            <div class="map-pin-graphic">📍</div>
+            <h3>Find Us Near Budaun Roadways</h3>
+            <p>
+              Just 2 minutes from Budaun Bus Stand on Water Works Road. Turn into the lane directly opposite the Hanuman Mandir.
+            </p>
+            <div style="display:flex; flex-direction:column; gap:10px; width:100%; max-width:320px;">
+              <a href="https://maps.app.goo.gl/drYQJRckM2p1J5NS7" target="_blank" rel="noopener" class="btn btn--primary btn--full">
+                🗺️ Open in Google Maps
+              </a>
+              <a href="tel:9045009676" class="btn btn--ghost btn--full">
+                📞 Call Workshop: 9045009676
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h3 style="font-size:1.3rem; margin-bottom:4px;">Lalla Auto Service</h3>
+          <p style="margin:0; font-size:0.88rem;">Budaun, Uttar Pradesh · 100% Genuine Motorcycle Spare Parts & Repair Workshop</p>
+        </div>
+        <div>
+          <a href="https://wa.me/919045009676" class="btn btn--whatsapp btn--sm" target="_blank" rel="noopener">
+            WhatsApp Hotline: 9045009676
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Lalla Auto Service, Budaun. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA Button -->
+  <a href="https://wa.me/919045009676?text=Namaste%20Lalla%20Auto%20Service,%20I%20would%20like%20to%20inquire%20about%20motorcycle%20repair%20and%20spare%20parts." class="floating-wa-btn" target="_blank" rel="noopener" aria-label="Chat with Lalla Auto Service on WhatsApp">
+    <div class="floating-wa-btn__pulse"></div>
+    💬
+  </a>
+
+  <!-- ============================================================================
+       MODAL: Interactive Service Booking on WhatsApp
+       ========================================================================== -->
+  <div id="booking-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="bk-modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 id="bk-modal-title" style="margin:0; font-size:1.35rem;">Book Bike Service on WhatsApp</h3>
+          <p style="margin:0; font-size:0.84rem; color:var(--ink-secondary);">Instant confirmation · Lalla Auto Service Budaun</p>
+        </div>
+        <button type="button" class="modal-close" id="close-booking-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <form id="service-booking-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="bk-name">Your Full Name *</label>
+            <input type="text" id="bk-name" placeholder="e.g. Rohit Sharma" required />
+          </div>
+
+          <div class="form-group">
+            <label for="bk-phone">WhatsApp Number *</label>
+            <input type="tel" id="bk-phone" placeholder="e.g. 9876543210" required />
+          </div>
+
+          <div class="form-group">
+            <label for="bk-brand">Bike Brand *</label>
+            <select id="bk-brand" required>
+              <option value="Hero">Hero</option>
+              <option value="Bajaj">Bajaj</option>
+              <option value="TVS">TVS</option>
+              <option value="Honda">Honda</option>
+              <option value="Other">Other Brand</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="bk-model">Bike Model *</label>
+            <input type="text" id="bk-model" placeholder="e.g. Splendor Plus / Pulsar 150" required />
+          </div>
+
+          <div class="form-group">
+            <label for="bk-reg">Registration No. (Optional)</label>
+            <input type="text" id="bk-reg" placeholder="e.g. UP 24 AB 1234" />
+          </div>
+
+          <div class="form-group">
+            <label for="bk-service">Service Required *</label>
+            <select id="bk-service" required>
+              <option value="Periodic General Servicing">Periodic General Servicing</option>
+              <option value="Engine Repair & Overhaul">Engine Repair & Overhaul</option>
+              <option value="Clutch & Transmission Work">Clutch & Transmission Work</option>
+              <option value="Brake Overhaul & Safety Service">Brake Overhaul & Safety Service</option>
+              <option value="Electrical & Battery Diagnostics">Electrical & Battery Diagnostics</option>
+              <option value="General Inspection / Other">General Inspection / Other Issue</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="bk-date">Preferred Date</label>
+            <input type="text" id="bk-date" placeholder="e.g. Today / Tomorrow / Specific Date" />
+          </div>
+
+          <div class="form-group">
+            <label for="bk-time">Preferred Time</label>
+            <input type="text" id="bk-time" placeholder="e.g. 10:30 AM / Afternoon" />
+          </div>
+
+          <div class="form-group form-group--full">
+            <label class="form-checkbox">
+              <input type="checkbox" id="bk-pickup-toggle" />
+              <span style="font-weight:700; color:var(--ink-primary);">Require Doorstep Bike Pickup in Budaun?</span>
+            </label>
+          </div>
+
+          <div id="bk-pickup-details" class="form-group form-group--full" style="display:none;">
+            <label for="bk-address">Pickup Address & Landmark in Budaun</label>
+            <input type="text" id="bk-address" placeholder="e.g. Civil Lines, near District Hospital, Budaun" />
+          </div>
+
+          <div class="form-group form-group--full">
+            <label for="bk-notes">Problem Description / Notes</label>
+            <textarea id="bk-notes" rows="2" placeholder="Describe any noises, smoke, starting trouble, or specific parts you need..."></textarea>
+          </div>
+        </div>
+
+        <!-- WhatsApp Preview Terminal -->
+        <div class="whatsapp-preview-box">
+          <div class="whatsapp-preview-box__title">
+            <span>💬 Live WhatsApp Message Preview</span>
+          </div>
+          <div id="bk-whatsapp-preview" class="whatsapp-preview-content"></div>
+        </div>
+
+        <button type="submit" class="btn btn--whatsapp btn--full" style="font-size:1.05rem; padding:15px;">
+          <span>Send Booking to WhatsApp (9045009676)</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============================================================================
+       MODAL: Doorstep Pickup Scheduler
+       ========================================================================== -->
+  <div id="pickup-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="pk-modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 id="pk-modal-title" style="margin:0; font-size:1.35rem;">Schedule Doorstep Bike Pickup</h3>
+          <p style="margin:0; font-size:0.84rem; color:var(--ink-secondary);">We collect & deliver anywhere in Budaun</p>
+        </div>
+        <button type="button" class="modal-close" id="close-pickup-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <form id="pickup-request-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="pk-name">Your Name *</label>
+            <input type="text" id="pk-name" placeholder="e.g. Amit Verma" required />
+          </div>
+
+          <div class="form-group">
+            <label for="pk-phone">WhatsApp Number *</label>
+            <input type="tel" id="pk-phone" placeholder="e.g. 9045009676" required />
+          </div>
+
+          <div class="form-group form-group--full">
+            <label for="pk-bike">Bike Brand & Model *</label>
+            <input type="text" id="pk-bike" placeholder="e.g. Hero Splendor Plus / Honda Activa" required />
+          </div>
+
+          <div class="form-group form-group--full">
+            <label for="pk-address">Pickup Address in Budaun *</label>
+            <input type="text" id="pk-address" placeholder="e.g. Awas Vikas Colony, Street No. 3" required />
+          </div>
+
+          <div class="form-group">
+            <label for="pk-landmark">Nearby Landmark</label>
+            <input type="text" id="pk-landmark" placeholder="e.g. Near Water Tank / School" />
+          </div>
+
+          <div class="form-group">
+            <label for="pk-time">Preferred Time Slot *</label>
+            <select id="pk-time">
+              <option value="Morning (9:00 AM - 12:00 PM)">Morning (9:00 AM - 12:00 PM)</option>
+              <option value="Afternoon (12:00 PM - 3:00 PM)">Afternoon (12:00 PM - 3:00 PM)</option>
+              <option value="Evening (3:00 PM - 6:00 PM)">Evening (3:00 PM - 6:00 PM)</option>
+              <option value="Immediate / Urgent">Immediate / Urgent Pickup</option>
+            </select>
+          </div>
+
+          <div class="form-group form-group--full">
+            <label for="pk-problem">Work / Problem Required</label>
+            <textarea id="pk-problem" rows="2" placeholder="e.g. Regular servicing + front brake check"></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full" style="margin-top:14px;">
+          <span>Dispatch Pickup Request on WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- JavaScript Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/scrub-engine.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
