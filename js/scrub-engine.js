@@ -481,10 +481,12 @@ function mountLetsScrollCanvas(container, config) {
   function ctaBtns(cta) {
     let h = '';
     if (cta.primary) {
-      h += `<a class="sw-btn sw-btn--primary" href="${esc(cta.primary.href || '#')}">${esc(cta.primary.label)}</a>`;
+      const isExt = cta.primary.href && (cta.primary.href.startsWith('http') || cta.primary.href.startsWith('https'));
+      h += `<a class="sw-btn sw-btn--primary" href="${esc(cta.primary.href || '#')}" ${isExt ? 'target="_blank" rel="noopener"' : ''}>${esc(cta.primary.label)}</a>`;
     }
     if (cta.secondary) {
-      h += `<a class="sw-btn sw-btn--ghost" href="${esc(cta.secondary.href || '#')}">${esc(cta.secondary.label)}</a>`;
+      const isExt = cta.secondary.href && (cta.secondary.href.startsWith('http') || cta.secondary.href.startsWith('https'));
+      h += `<a class="sw-btn sw-btn--ghost" href="${esc(cta.secondary.href || '#')}" ${isExt ? 'target="_blank" rel="noopener"' : ''}>${esc(cta.secondary.label)}</a>`;
     }
     return h;
   }

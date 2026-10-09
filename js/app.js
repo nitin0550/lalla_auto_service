@@ -136,7 +136,7 @@ function initLetsScrollCanvasWorld() {
     },
     cta: {
       label: 'Book on WhatsApp',
-      href: '#booking-modal'
+      href: 'https://wa.me/919012891452?text=hii'
     },
     hint: 'SWIPE / DRAG HORIZONTALLY ↻ • SCROLL DOWN FOR SERVICES ↓',
     sections: [
@@ -151,7 +151,7 @@ function initLetsScrollCanvasWorld() {
         body: 'Specializing in Hero, Bajaj, TVS, and Honda motorcycles. Water Works Road, near Budaun Roadways (opp. Hanuman Mandir). Certified mechanics, hydraulic bays, and doorstep pickup.',
         tags: ['Hero · Bajaj · TVS · Honda', 'Water Works Road', 'Near Roadways Bus Stand', 'Open All 7 Days'],
         cta: {
-          primary: { label: '💬 Book on WhatsApp', href: '#booking-modal' },
+          primary: { label: '💬 Chat on WhatsApp', href: 'https://wa.me/919012891452?text=hii' },
           secondary: { label: 'Explore Services ↓', href: '#services' }
         }
       },
@@ -181,7 +181,7 @@ function initLetsScrollCanvasWorld() {
         body: 'Ready inventory of genuine brake shoes, heavy-duty chain sprockets, clutch plates, air/oil filters, cables, and 4T synthetic oils in our Budaun shop.',
         tags: ['100% Original Spares', 'Ready in Budaun Shop', 'Retail & Wholesale', 'Zero Counterfeits'],
         cta: {
-          primary: { label: '💬 Inquire on WhatsApp', href: '#booking-modal' },
+          primary: { label: '💬 Inquire on WhatsApp', href: 'https://wa.me/919012891452?text=hii' },
           secondary: { label: 'Explore Services ↓', href: '#services' }
         }
       },
@@ -211,7 +211,7 @@ function initLetsScrollCanvasWorld() {
         body: 'No surprises or hidden charges. Receive photos of required repairs, genuine parts verification, and job progress updates directly on your WhatsApp.',
         tags: ['Direct WhatsApp Updates', 'Photo Inspection', 'Complete Transparency', 'Zero Hidden Fees'],
         cta: {
-          primary: { label: '💬 Chat on WhatsApp', href: '#booking-modal' },
+          primary: { label: '💬 Chat on WhatsApp', href: 'https://wa.me/919012891452?text=hii' },
           secondary: { label: 'Explore Services ↓', href: '#services' }
         }
       },
@@ -223,10 +223,10 @@ function initLetsScrollCanvasWorld() {
         image: 'assets/images/scene_finale.webp',
         eyebrow: 'Lalla Auto Service City Budaun',
         title: 'Ride Smooth. Ride With Confidence.',
-        body: 'Located at Water Works Road, near Budaun Roadways, opp. Hanuman Mandir lane. Call or WhatsApp 9045009676 for immediate assistance.',
-        tags: ['Open 7 Days (8:30 AM - 8:30 PM)', 'Phone: 9045009676', 'Budaun, UP', '100% Satisfaction'],
+        body: 'Located at Water Works Road, near Budaun Roadways, opp. Hanuman Mandir lane. Call or WhatsApp 90128 91452 for immediate assistance.',
+        tags: ['Open 7 Days (8:30 AM - 8:30 PM)', 'Phone: 90128 91452', 'Budaun, UP', '100% Satisfaction'],
         cta: {
-          primary: { label: 'Book on WhatsApp', href: '#booking-modal' },
+          primary: { label: '💬 Chat on WhatsApp', href: 'https://wa.me/919012891452?text=hii' },
           secondary: { label: 'Shop Location & Map', href: '#contact' }
         }
       }
@@ -378,7 +378,7 @@ _Please confirm my booking slot and technician availability._`;
       const newBookingId = 'LAS-' + Math.floor(1000 + Math.random() * 9000);
 
       const name = document.getElementById('bk-name')?.value || 'Customer';
-      const phone = document.getElementById('bk-phone')?.value || '9045009676';
+      const phone = document.getElementById('bk-phone')?.value || '9012891452';
       const brand = document.getElementById('bk-brand')?.value || 'Hero';
       const model = document.getElementById('bk-model')?.value || 'Motorcycle';
       const regNo = document.getElementById('bk-reg')?.value || 'UP 24 ...';
@@ -408,7 +408,7 @@ _Please confirm my booking slot and technician availability._`;
       window.open(waUrl, '_blank');
 
       modal.classList.remove('is-open');
-      alert(`Booking inquiry created! Reference ID: #${newBookingId}\nOpening WhatsApp to send your request to Lalla Auto Service (9045009676).`);
+      alert(`Booking inquiry created! Reference ID: #${newBookingId}\nOpening WhatsApp to send your request to Lalla Auto Service (90128 91452).`);
     });
   }
 }

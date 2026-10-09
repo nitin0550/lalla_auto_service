@@ -7,8 +7,8 @@
 const LALLA_CONFIG = {
   businessName: 'Lalla Auto Service',
   tagline: '100% Genuine Spare Parts & Expert Motorcycle Workshop in Budaun',
-  phone: '9045009676',
-  whatsappNumber: '919045009676',
+  phone: '9012891452',
+  whatsappNumber: '919012891452',
   address: {
     line1: 'Water Works Road, near Budaun Roadways',
     line2: 'In the lane opposite Hanuman Mandir',
